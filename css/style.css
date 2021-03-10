@@ -3,6 +3,13 @@
 	margin: 0;
 }
 
+body{
+	width: 1400px;
+	height: 870px;
+	margin:auto auto;
+}
+
+
 div{
 	margin: 0 auto;
 }
@@ -123,12 +130,22 @@ hr {
 	display: flex;;
 	flex-direction: column;
 	margin-bottom: 20px;
+	align-items: flex-start;
+	background-color: red;
+
 }
 
 .points{
 	margin-bottom: 3px;
 	font-size: 17px;
 	color: #008000;
+}
+
+.menu{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 .name1PersonalQualities{
@@ -144,6 +161,17 @@ hr {
 .name1Socials{
 	color: #052602;
 	font-weight: bold;
+}
+
+figure{
+	width: 90%;
+	padding-left: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav{
+	width: 400px;
 }
 
 .achievements{
@@ -195,8 +223,12 @@ hr {
 
 .skillsInformation{
 	display: flex;
-	justify-content: space-between;
-	width: 40%;
+	justify-content: space-around;
+	width: 90%;
+}
+
+.codeExample{
+	width:30%;
 }
 
 .nameSectionSkills{
@@ -216,10 +248,7 @@ hr {
 }
 
 .imgsConteiner{
-	width: 90%;
-	padding-left: 10px;
-	display: flex;
-	justify-content: space-around;
+	
 }
 
 .textHobby{
@@ -235,6 +264,7 @@ hr {
 }
 
 footer {
+	width: 1400px;
 	background-color: #145214;
 	text-align: center;
 	color: #fff;
@@ -242,6 +272,7 @@ footer {
 	left: 0;
 	right: 0;
 	font-size: 20px;
+		margin: auto auto;
 }
 
 .footerP {
